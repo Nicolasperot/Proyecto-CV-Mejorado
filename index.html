@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://academy.profesional.ticmas.io/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content=CV Roney Davidson>
+    <meta property="og:site_name" content=GitHub>
+    <meta property="og:url" content=https://nicolasperot.github.io/Proyecto-CV/>
+    <meta property="og:description" content="Este es un documento HTML creado como proyecto final de uno de los cursos de capacitación realizados"> 
+    <meta property="og:type" content="">
+    <meta property="og:image" content=https://nicolasperot.github.io/Proyecto-CV/Perfil1.jpg>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="cinco.css">
+        
+    <title> CV Roney Davidson </title>
+</head>
+<body>
+
+<!-- Encabezado -->
+    <div class="container">
+        <div class="categoria" id="quienSoy">Quién soy</div>
+        <div class="categoria" id="misHabilidades">Mis habilidades</div>
+        <div class="categoria" id="misHobbies">Mis hobbies</div>
+        <div class="categoria" id="desafiosFuturos">Desafíos futuros</div>
+      </div>
+    
+      <div id="textoQuienSoy" class="texto">
+        Soy una persona apasionada por el desarrollo web y la tecnología. Me encanta aprender y poner en práctica mis conocimientos en proyectos personales y profesionales.
+      </div>
+      <div id="textoMisHabilidades" class="texto">
+        Tengo habilidades en HTML, CSS, JavaScript, React y Git. También tengo conocimientos en desarrollo de aplicaciones móviles y manejo de bases de datos.
+      </div>
+      <div id="textoMisHobbies" class="texto">
+        En mi tiempo libre me gusta leer, ver películas y viajar. También disfruto de la música y la fotografía.
+      </div>
+      <div id="textoDesafiosFuturos" class="texto">
+        Mis desafíos futuros incluyen seguir mejorando mis habilidades en tecnología y aplicarlas en proyectos innovadores. También quiero seguir explorando nuevas áreas del desarrollo web y aprender nuevos lenguajes de programación.
+      </div>
+<!-- Fin Encabezado -->
+
+<!-- FOTO DE PERFIL --> 
+      <div id="contenedorImagen">
+        <p id="texto">CLICK AQUI PARA VER FOTO DE PERFIL</p>
+        <img id="perfil" src="Perfil1.jpg" alt="Fotografía de perfil para CV de Rodney Davidson" style="display: none;">
+      </div>
+<!-- FIN FOTO DE PERFIL -->  
+      <div style="height: 25px;"></div>
+
+        <Section class="DATOS">
+
+            <div id="header">
+                <h1> <strong> RONEY DAVIDSON </strong></h1>
+            </div>
+    
+            <h3> <span> Curriculúm Vitae</span></h3>
+            <div style="height: 10px;"></div>
+    
+          <h4> <strong> Edad: </strong> 30 años (10-2-1992)</H4>
+          <h4> <strong> Email:</strong> roneydavidson@example.com </H4>
+          <h4> <strong> Dirección: </strong> 948 Mcclellan Rd </H4>
+          <h4> <strong> Teléfono: </strong> (291) 754-5207 </H4>
+        
+        </Section>
+
+        <div style="height: 50px;"></div>
+
+        <div class="Habilidades">
+            <button class="boton cinco" id="toggleBtn">
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </div>
+                <span> Mostrar/Ocultar Experiencia Laboral y Habilidades </span>
+            </button>
+        
+            <div style="height: 50px;"></div>
+        
+            <div id="experiencia" style="display:none">
+                <h3>Experiencia Laboral</h3>
+                <ul>
+                    <li> Enero 2012 - Julio 2016: diseñadora gráfica en Estudio Creativo Integra</li>
+                    <li> Febrero 2014 - Diciembre 2015: Diseñadora de stand en Agencia de Diseño Augur</li>
+                </ul>
+            </div>
+        
+            <div id="habilidades" style="display:none">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li> Conocimiento avanzado de Adobe Photoshop, Illustrator, InDesign y Dreamweaver</li>
+                    <li> Conocimientos de HTML5, CSS3 y JavaScript.</li> 
+                    <li> Experiencia en maquetado web y programación visual.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <script src="Funcion.Js"></script>
+        
+          
+
+   
+            <iframe id="video" width="100%" height="315" src="https://www.youtube.com/embed/Ds8lRXWfoPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+            <div style="height: 25px;"></div>
+
+
+
+<!-- PRESENTACIÓN DE CARTA -->
+<div class="anunciocarta">
+<p>
+A continuación se presenta una herramienta que permite la creación de una <b>carta de presentación personalizada</b> con el <b>NOMBRE DEL RECEPTOR</b>. Por favor, incluya el nombre de la empresa receptora y haga click en mostrar carta a fin de generar la misma. 
+</p>
+
+<p>
+También puede ocultar hacer click en el mismo botón, modificar el nombre del receptor y volver a clickear en mostrar carta a fin de generar una nueva carta de presentación para un distinto receptor.
+</p>
+</div>
+<!-- FIN PRUEBA PRESENTACIÓN DE CARTA -->
+
+<div style="height: 10px;"></div>
+            
+<!-- prueba carta presentación-->
+<script src="carta.js"></script>
+<div id="card-container">
+    <input type="text" id="receiver-name" placeholder="Nombre del Receptor">
+    <button id="show-card-btn">Mostrar u ocultar CARTA</button>
+    <div id="card" style="display:none;">
+      <p>Estimado/a <b> <span id="receiver-span"></span></b>,</p>
+      <p>Me dirijo a usted con el fin de presentarme y ofrecerle mis servicios como desarrollador web. 
+      Mi nombre es Rodney Davidson y tengo experiencia en tecnologías como HTML, CSS, JavaScript y PHP. 
+      Creo que mi perfil encajaría perfectamente en su equipo y me gustaría tener la oportunidad de demostrar mis habilidades.</p>
+      <P>Si está interesado/a, por favor no dude en ponerse en contacto conmigo a través de los datos que se encuentran en pantalla.
+      </p>
+      <p>Atentamente,<br>
+      <b>Roney Davidson</b></p>
+    </div>
+  </div>
+
+<script src="carta.js"></script>
+  
+<!-- FIN carta presentación-->
+   
+<div style="height: 25px;"></div>
+
+    <footer id="pie">
+        <p>Gracias por haber llegado hasta acá. Diseñado por Nicolás Perot.-</p>
+    </footer>
+</body>
+</html>
