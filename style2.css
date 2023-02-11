@@ -23,18 +23,7 @@
   
 /* FIN ENCABEZADO */
 
-/* anuncio carta */
 
-.anunciocarta {
-
-	margin: 20px;
-	padding: 10px;
-	text-align: justify;
-	background-color: lightgray;
-	border-radius: 5px;
-  }
-
-/* fin anuncio carta */
 
 * {
 	margin: 0;
@@ -126,7 +115,7 @@ h1 {
     animation-fill-mode: forwards;
 }
 
-/* PRUEBA FOTO */
+/* FOTO */
 #texto {
 	width: 150px;
 	height: 150px;
@@ -205,12 +194,24 @@ h1 {
 	background: #93ABC1;
   }
 
-  /* PRUEBA CARTA */
+/* anuncio carta */
+
+.anunciocarta {
+
+	margin: 20px;
+	padding: 10px;
+	text-align: justify;
+	background-color: lightgray;
+	border-radius: 5px;
+  }
+
+/* fin anuncio carta */
+
+/* CARTA */
   #card {
 	background-color: rgb(219, 217, 217);
 	border: 1px solid black;
 	padding: 10px;
 	margin: 20px;
 }
-/* FIN PRUEBA CARTA */
-
+/* FIN CARTA */
