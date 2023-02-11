@@ -1,9 +1,12 @@
 # Proyecto-CV-Mejorado
 Entrega Trabajo Final - Curso Front End - Argentina Programa 4.0
+
+Este proyecto se desarrolla como trabajo final del curso “Primeros Pasos en el Desarrollo Front End” parte de Argentina Programa 4.0.
+
 <p> <b> Se puede acceder a la VERSIÓN FINAL en https://nicolasperot.github.io/Proyecto-CV-Mejorado/ </b> </p>
 
 
-Este proyecto se desarrolla como trabajo final del curso “Primeros Pasos en el Desarrollo Front End” parte de Argentina Programa 4.0.
+
 
 <h2> Para el mismo se tuvo en cuenta: </h2> 
 <p>Vincular HTML con CSS y JavaScript</p>
