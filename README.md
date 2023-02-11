@@ -12,6 +12,7 @@ Este proyecto se desarrolla como trabajo final del curso “Primeros Pasos en el
 <p>Utilizar bootstrap</p>
 <p>Formato full responsive.</p>
 <p>Propiedades y buenas prácticas recomendadas en el curso</p>
+</p>Se intentó mantener un correcto diseño manteniendo el uso de colores en escala de grises y colores claros.-
 
 
 <h2> Para JAVASCRIPT se tuvo en cuenta: </h2> 
@@ -19,7 +20,7 @@ Este proyecto se desarrolla como trabajo final del curso “Primeros Pasos en el
 <p>La foto (muchas empresas actualmente solicitan CV sin foto, por lo que me pareció una buena alternativa)</p>
 <p>Al pasar el mouse sobre las categorías del menú superior, se genera un nuevo cuadro con breves textos</p>
 <p>Los botones para mostrar/ocultar (tanto las experiencias y habilidades como la carta de presentación)</p>
-<p>Una interacción especial con el usuario que permite agregar un texto y modificar la carta de presentación que se genera atendiendo a qué empresa/receptor esté dirigida. 
+<p>Una interacción especial con el usuario que permite agregar un texto y modificar la carta de presentación que se genera atendiendo a qué empresa/receptor esté dirigida.
 </p>
 <h2>CUESTIÓN PERSONAL:</h2>
 <p>Dado que ha sido la primera vez que trabajo en un proyecto de este tipo, me ha significado un gran esfuerzo personal, y atrás de cada una de las pequeñas interacciones que se muestran realmente hay muchas horas y horas de trabajo. Lo que puede significar una página web muy sencilla para un programador profesional, para quienes estamos iniciando es realmente un gran esfuerzo. </p>
